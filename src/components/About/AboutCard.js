@@ -10,7 +10,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Muhammad Abdullah </span>
             from <span className="purple"> Karachi, Pakistan.</span>
-            <br />I am a junior Web Developer and student of SMIT Karachi.
+            <br />I am a React Js developer and part time teacher at SMIT Karachi.
             <br />
             <br />
             <br />
@@ -22,7 +22,7 @@ function AboutCard() {
               <ImPointRight /> Cooking
             </li>
             <li className="about-activity">
-              <ImPointRight /> Cricket
+              <ImPointRight /> Teaching
             </li>
             <li className="about-activity">
               <ImPointRight /> Travelling
