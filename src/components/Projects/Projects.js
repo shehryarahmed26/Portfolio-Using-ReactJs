@@ -31,7 +31,7 @@ function Projects() {
               title="Dietis Hospital App"
               description="Introducing the Hospital App. This app is created using MERN stack technology. Revolutionize the way hospitals manage their operations. This cutting-edge app combines advanced features, such as a chat platform, attendance management, and work management tools."
               ghLink="https://github.com/mabdullahjs/Dietis-Backend"
-              demoLink="https://dietes-322.web.app/schedule"
+              demoLink="https://cheerful-polo-shirt-bear.cyclic.cloud/"
             />
           </Col>
           <Col md={4} className="project-card">
