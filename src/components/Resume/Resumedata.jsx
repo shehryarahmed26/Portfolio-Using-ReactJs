@@ -7,16 +7,18 @@ function Resumedata() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
+            <span className="purple">MERN Instructor</span>{" "}
+            <span>Empowered students at Saylani Mass IT Training with comprehensive MERN stack knowledge, fostering proficient backend developers through hands-on projects and personalized guidance.</span>
+            <br />
+            <br />
+
+
             <span className="purple">React JS Developer</span>{" "}
             <span>at SkySoft Solutions, gaining valuable experience and skills in the field.
               Built a strong foundation in Front End Development that allowed me to fit seamlessly into the company's culture.</span>
             <br />
             <br />
 
-            <span className="purple">Internship Experience</span>{" "}
-            <span>Achieved the distinction of being the top student in the Jawan Pakistan Program's backend development track.</span>
-            <br />
-            <br />
 
             <span className="purple">Hackathon Experience</span>{" "}
             <span>Participated in a 12-hour Hackathon at SMIT, which taught me how to work on a competitive task under time constraints and pressure.</span>
@@ -24,13 +26,13 @@ function Resumedata() {
             <br />
             <span className="purple">Internship Experience</span>{" "}
             <span>
-            Completed an internship at SMIT, where I gained advanced knowledge of JavaScript and learned how to approach and solve difficult programming tasks with a cool mindset.
+            Completed an internship at Coderatory, during my internship, I honed my skills in Node.js, mastering complex programming challenges with a calm approach.
             </span>
             <br />
             <br />
             <span className="purple">Internship Experience</span>{" "}
             <span>
-            Completed an internship at Coderatory, where I learned about the roadmap of Front End Development and how to effectively work in the market.
+            Completed an internship at Digitalogies, where I learned about the roadmap of Front End Development and how to effectively work in the market.
             </span>
             <br />
             <br />
