@@ -7,6 +7,11 @@ function Resumedata() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
+          <span className="purple">CEO & Founder</span>{" "}
+            <span>At the age of 20, I founded Innovatrix Tech, where I currently serve as the CEO. This experience has provided me with valuable insights into entrepreneurship and leadership in the tech industry.</span>
+            <br />
+            <br />
+
             <span className="purple">MERN Instructor</span>{" "}
             <span>Empowered students at Saylani Mass IT Training with comprehensive MERN stack knowledge, fostering proficient backend developers through hands-on projects and personalized guidance.</span>
             <br />
@@ -19,11 +24,6 @@ function Resumedata() {
             <br />
             <br />
 
-
-            <span className="purple">Hackathon Experience</span>{" "}
-            <span>Participated in a 12-hour Hackathon at SMIT, which taught me how to work on a competitive task under time constraints and pressure.</span>
-            <br />
-            <br />
             <span className="purple">Internship Experience</span>{" "}
             <span>
             Completed an internship at Coderatory, during my internship, I honed my skills in Node.js, mastering complex programming challenges with a calm approach.
