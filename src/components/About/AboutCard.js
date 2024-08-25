@@ -10,7 +10,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Muhammad Abdullah </span>
             from <span className="purple"> Karachi, Pakistan.</span>
-            <br />I am a React Js developer and part time teacher at SMIT Karachi.
+            <br />I am a Software Engineer, the CEO and Founder of Innovatrix Tech, a service-based company, and a Lead Instructor at SMIT.
             <br />
             <br />
             <br />
