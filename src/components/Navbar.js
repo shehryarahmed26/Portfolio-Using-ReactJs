@@ -39,7 +39,7 @@ function NavBar() {
       <Container>
         <Navbar.Brand href="/" className="d-flex">
           {/* <img src={logo} className="img-fluid logo" alt="brand" /> */}
-          <h1 style={{fontSize:"150%" , color:"#c770f0", fontWeight:"bolder"}}>Abdullah.</h1>
+          <h1 style={{fontSize:"150%" , color:"#c770f0", fontWeight:"bolder"}}>Shehryar.</h1>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -88,10 +88,10 @@ function NavBar() {
                 to="/resume"
                 onClick={() => updateExpanded(false)}
               >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Experience
+                <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
             </Nav.Item>
-            <Nav.Item>
+            {/* <Nav.Item>
               <Nav.Link
                 as={Link}
                 to="/contact"
@@ -99,9 +99,9 @@ function NavBar() {
               >
                 <AiOutlineMessage style={{ marginBottom: "2px" }} /> Contact
               </Nav.Link>
-            </Nav.Item>
+            </Nav.Item> */}
 
-            <Nav.Item className="fork-btn">
+            {/* <Nav.Item className="fork-btn">
               <Button
                 href="https://github.com/mabdullahjs/"
                 target="_blank"
@@ -110,7 +110,7 @@ function NavBar() {
                 <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
                 <AiFillStar style={{ fontSize: "1.1em" }} />
               </Button>
-            </Nav.Item>
+            </Nav.Item> */}
           </Nav>
         </Navbar.Collapse>
       </Container>

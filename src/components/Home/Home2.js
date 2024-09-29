@@ -25,7 +25,7 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> Javascript, ReactJs and React Native. </b>
+                <b className="purple"> Javascript, ReactJs and Nextjs. </b>
               </i>
               <br />
               <br />
@@ -66,9 +66,9 @@ function Home2() {
               Feel free to <span className="purple">connect </span>with me
             </p>
             <ul className="home-about-social-links">
-              <li className="social-icons">
+            <li className="social-icons">
                 <a
-                  href="https://github.com/mabdullahjs"
+                  href="https://github.com/shehryarahmed26"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -78,7 +78,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/mabdullah2037"
+                  href="https://twitter.com/Soumyajit4419"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -88,7 +88,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/mabdullahjs/"
+                  href="https://www.linkedin.com/in/shehryar26/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -98,7 +98,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/m.abdullah_317/"
+                  href="https://www.instagram.com/shehryr__rrr"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"

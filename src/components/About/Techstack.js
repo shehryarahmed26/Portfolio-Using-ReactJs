@@ -51,7 +51,7 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiRedux />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      {/* <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
@@ -59,7 +59,7 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
-      </Col>
+      </Col> */}
       <Col xs={4} md={2} className="tech-icons">
         <SiNextdotjs />
       </Col>

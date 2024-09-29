@@ -2,15 +2,13 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import sunshine from "../../Assets/Projects/sunshine.png";
-import quiz from "../../Assets/Projects/quiz.png";
-import textutils from "../../Assets/Projects/textutils.png";
-import portfolio from "../../Assets/Projects/portfolio.png";
-import tkh from "../../Assets/Projects/tkh.png";
-import noon from "../../Assets/Projects/noon.png";
-import dietes from "../../Assets/Projects/dietes.png";
-import fumicon from "../../Assets/Projects/fumicon.png";
-import lms from "../../Assets/Projects/LMS-portal.png";
+import moviesapp from "../../Assets/Projects/Moviesapp.png";
+import carsshowroom from "../../Assets/Projects/Carsshowroom.png";
+import chatpk from "../../Assets/Projects/Chatpk.png";
+import avengers from "../../Assets/Projects/Game.png";
+import Game from "../../Assets/Projects/Game.png";
+import chatbot from "../../Assets/Projects/chatbot.png";
+import elitebazaar from "../../Assets/Projects/elitebazaar.PNG";
 
 function Projects() {
   return (
@@ -26,99 +24,72 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={dietes}
+              imgPath={elitebazaar}
               isBlog={false}
-              title="Dietis Hospital App"
-              description="Introducing the Hospital App. This app is created using MERN stack technology. Revolutionize the way hospitals manage their operations. This cutting-edge app combines advanced features, such as a chat platform, attendance management, and work management tools."
-              ghLink="https://github.com/mabdullahjs/dietis"
-              demoLink="https://dietes-322.web.app/schedule"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={fumicon}
-              isBlog={false}
-              title="Fumicon Pesticides Control"
-              description="The Pesticide Control Statuc website is your go-to online resource for comprehensive information and guidance on pest control. With expert advice and up-to-date resources, it helps individuals and businesses effectively manage pests and maintain a pest-free environment."
-              ghLink="https://github.com/mabdullahjs/Fumicon-Second-Design"
-              demoLink="https://fumicon-123.web.app/"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={lms}
-              isBlog={false}
-              title="Institute Management System"
-              description="The Institute Management System is a robust online platform that streamlines administrative tasks and facilitates efficient management of academic institutions. From student enrollment and attendance tracking to resource allocation. and performance evaluation. This project is under developement mode."
-              ghLink="https://github.com/mabdullahjs/LMS-PORTAL"
-              demoLink="https://institute-322.web.app/"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={sunshine}
-              isBlog={false}
-              title="Sunshine Exhause"
-              description="This website is owned by Sunshine Exhaust  which consists of the finest equipment and reputable technicians in the area. They have been providing exhaust fans for many years in Pakistan."
-              ghLink="https://github.com/mabdullahjs/sunshine-fans"
-              demoLink="https://sunshineblower.com/"
+              title="Elite-Bazaar"
+              description="Ecommerce website using Reactjs, Tailwindcss, Ant Design and dummyjson api integration."
+              ghLink="https://github.com/shehryarahmed26/EliteBazaar-Ecommerce-site-"
+              demoLink="https://elite-bazaar.vercel.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={textutils}
+              imgPath={chatpk}
               isBlog={false}
-              title="Textutils"
-              description="TextUtils is a powerful module that offers a range of functionalities for extracting and manipulating text from paragraphs. such as whitespace removal, word capitalization, and word lowercasing."
-              ghLink="https://github.com/mabdullahjs/TextUtils"
-              demoLink="https://textutils-322.web.app/"
+              title="Chat-pk"
+              description=" Real-time Chat Application using Reactjs, Firebase and tailwind css. handling  firebase google authenthication login/logout, firebase firestore and real time functionality"
+              ghLink="https://github.com/shehryarahmed26/Chat.pk"
+              demoLink="https://chat-pk-three.vercel.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={quiz}
+              imgPath={carsshowroom}
               isBlog={false}
-              title="Quiz App"
-              description="Quiz app is very helpful for schools and students. It helps them to develop their skills and knowledge through quizzes. This app provides a way for students to take exams, improve their abilities and skills."
-              ghLink="https://github.com/mabdullahjs/Presentation-Quiz-App"
-              demoLink="https://quiz-322.web.app/"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={portfolio}
-              isBlog={false}
-              title="Old Portfolio"
-              description="This is my previous portfolio website, created using HTML, CSS, JavaScript, Tailwind CSS, and Firebase. It has been recognized with the  Best Design of Portfolio award in my class."
-              ghLink="https://github.com/mabdullahjs/Complete-Portfolio"
-              demoLink="https://portfolio-322.web.app/"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={noon}
-              isBlog={false}
-              title="noon.com clone"
-              description="This is a design of noon.com made using reactjs and antdesign library. It has a responsive layout which looks beautifully on all devices, from mobiles to desktops."
-              ghLink="https://github.com/mabdullahjs/Noon.com-Clone"
-              demoLink="https://noon-322.web.app/"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={tkh}
-              isBlog={false}
-              title="Theek Kar Dengey "
-              description="This is a mobile repairing website which contain all e-commerce features and it is made using react js and antd. You can fix and buy repaired products on the website."
-              ghLink="https://github.com/mabdullahjs/Mobile-Repair-ReactJs"
-              demoLink="https://tkh-123.web.app/"
+              title="Cars Showroom"
+              description="Carsshowroom webapp using html, css, js, animate.css. handling nested for in loops for cars data integration"
+              ghLink="https://github.com/shehryarahmed26/carsbuy-showroom-webapp"
+              demoLink="https://carsbuy-showroom.netlify.app"              
             />
           </Col>
 
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={moviesapp}
+              isBlog={false}
+              title="Movies-Mania"
+              description="Movies-mania a movies app using htmt, css, js and OMDB's Api for movies-integration. managing search functionality api integration and layout management"
+              ghLink="https://github.com/shehryarahmed26/Movie-App-js"
+              demoLink="https://movies-app-sh.netlify.app/"
+            />
+          </Col>
 
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={avengers}
+              isBlog={false}
+              title="Fighting Game"
+              description="build a marvel game using html css and js. handling gifs on key pressing and animation."
+              ghLink="https://github.com/shehryarahmed26/Game-Animation"
+              demoLink="https://game-animation-sh.netlify.app/"
 
+              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={chatbot}
+              isBlog={false}
+              title="Chatbot-pk"
+              description="A JavaScript-based chatbot using Firebase with dynamic prompt handling. Unmatched prompts are stored in Firebase for future logic updates.."
+              ghLink="https://github.com/shehryarahmed26/Chatbot"
+              demoLink="https://chatbot-pk.vercel.app/"
+              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+            />
+          </Col>
         </Row>
       </Container>
     </Container>

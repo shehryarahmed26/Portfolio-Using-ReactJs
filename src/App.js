@@ -16,6 +16,7 @@ import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Contact from "./components/contact/Contact";
+// import Resume from "./components/Projects/Resume/Resume";
 
 function App() {
   const [load, upadateLoad] = useState(true);
