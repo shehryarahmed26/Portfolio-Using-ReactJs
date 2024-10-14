@@ -9,6 +9,8 @@ import avengers from "../../Assets/Projects/Game.png";
 import Game from "../../Assets/Projects/Game.png";
 import chatbot from "../../Assets/Projects/chatbot.png";
 import elitebazaar from "../../Assets/Projects/elitebazaar.PNG";
+import netflix from "../../Assets/Projects/netflix.png";
+
 
 function Projects() {
   return (
@@ -57,12 +59,12 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={moviesapp}
+              imgPath={netflix}
               isBlog={false}
-              title="Movies-Mania"
-              description="Movies-mania a movies app using htmt, css, js and OMDB's Api for movies-integration. managing search functionality api integration and layout management"
-              ghLink="https://github.com/shehryarahmed26/Movie-App-js"
-              demoLink="https://movies-app-sh.netlify.app/"
+              title="Netflix-inspired Movies App"
+              description="Built a netflix inspired movies app using ReactJs, also includes the api intigraion, search functionality, pagination, skeleton loading, responsive courosoel and dynamic routing "
+              ghLink="https://github.com/shehryarahmed26/netflix-react"
+              demoLink="https://netflix-sh.vercel.app/"
             />
           </Col>
 
