@@ -10,6 +10,8 @@ import Game from "../../Assets/Projects/Game.png";
 import chatbot from "../../Assets/Projects/chatbot.png";
 import elitebazaar from "../../Assets/Projects/elitebazaar.PNG";
 import netflix from "../../Assets/Projects/netflix.png";
+import tivo from "../../Assets/Projects/Tivo.png";
+// import tivo from "../Assets/Projects/Tivo.png";
 
 
 function Projects() {
@@ -24,6 +26,16 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={tivo}
+              isBlog={false}
+              title="Tivo - blogging platform"
+              description="A Full Stack blogging platform with admin dashboard using react, node, express and mongodb."
+              ghLink="https://github.com/shehryarahmed26/TiVO----MERN"
+              demoLink="https://tivo-sh.vercel.app/"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={elitebazaar}
@@ -48,23 +60,23 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={carsshowroom}
-              isBlog={false}
-              title="Cars Showroom"
-              description="Carsshowroom webapp using html, css, js, animate.css. handling nested for in loops for cars data integration"
-              ghLink="https://github.com/shehryarahmed26/carsbuy-showroom-webapp"
-              demoLink="https://carsbuy-showroom.netlify.app"              
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
               imgPath={netflix}
               isBlog={false}
               title="Netflix-inspired Movies App"
               description="Built a netflix inspired movies app using ReactJs, also includes the api intigraion, search functionality, pagination, skeleton loading, responsive courosoel and dynamic routing "
               ghLink="https://github.com/shehryarahmed26/netflix-react"
               demoLink="https://netflix-sh.vercel.app/"
+            />
+          </Col>
+          
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={carsshowroom}
+              isBlog={false}
+              title="Cars Showroom"
+              description="Carsshowroom webapp using html, css, js, animate.css. handling nested for in loops for cars data integration"
+              ghLink="https://github.com/shehryarahmed26/carsbuy-showroom-webapp"
+              demoLink="https://carsbuy-showroom.netlify.app"              
             />
           </Col>
 

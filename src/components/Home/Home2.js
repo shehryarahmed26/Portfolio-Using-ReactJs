@@ -25,7 +25,7 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> Javascript, ReactJs and Nextjs. </b>
+                <b className="purple"> Javascript, ReactJs, Nextjs, Node, Express and MongoDB </b>
               </i>
               <br />
               <br />
@@ -49,7 +49,7 @@ function Home2() {
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js</b>
+                <b className="purple"> Mern Stack</b>
               </i>
             </p>
           </Col>
