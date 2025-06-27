@@ -7,27 +7,26 @@ function AboutCard() {
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Shehryar Ahmed </span>
-            from <span className="purple"> Karachi, Pakistan.</span>
-            I am currently learning Mern Stack at Saylani Mass IT Training.
-            <br />
-            I have completed DAE in Information Technology at GCT Site, Karachi.
-            <br />
-            <br />
-            Apart from coding, some other activities that I love to do!
-          </p>
-          <ul>
-            <li className="about-activity">
-              <ImPointRight /> Solve Leetcode problems
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Making Tech Toturials for youtube
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Exploring other Tech tools
-            </li>
-          </ul>
+        <p style={{ textAlign: "justify" }}>
+  Hi Everyone, I am <span className="purple">Shehryar Ahmed</span>, a passionate <strong>Software Engineer</strong> specializing in full-stack web development.
+  <br />
+  I'm focused on building saas applications using modern technologies like <strong>React, Next.js, Node.js, MongoDB, PostgreSql</strong>. Over the past year, I’ve grown significantly through continuous learning and hands-on experience.
+  <br />
+  <br />
+  Apart from coding, here are a few activities I enjoy that help me stay sharp and creative:
+</p>
+<ul>
+  <li className="about-activity">
+    <ImPointRight /> Playing Chess 
+  </li>
+  <li className="about-activity">
+    <ImPointRight /> Creating & Sharing Tech Content
+  </li>
+  <li className="about-activity">
+    <ImPointRight /> Building Side Projects & Exploring New Things
+  </li>
+</ul>
+
 
          
         </blockquote>

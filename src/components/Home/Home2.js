@@ -47,10 +47,6 @@ function Home2() {
                   Modern Javascript Library and Frameworks
                 </b>
               </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> Mern Stack</b>
-              </i>
             </p>
           </Col>
           <Col md={4} className="myAvtar">

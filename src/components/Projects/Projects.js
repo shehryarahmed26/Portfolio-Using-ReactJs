@@ -11,6 +11,9 @@ import chatbot from "../../Assets/Projects/chatbot.png";
 import elitebazaar from "../../Assets/Projects/elitebazaar.PNG";
 import netflix from "../../Assets/Projects/netflix.png";
 import tivo from "../../Assets/Projects/Tivo.png";
+import qrgen from "../../Assets/Projects/Qrgen.png";
+import onmls from "../../Assets/Projects/onmls.png";
+import crazygames1 from "../../Assets/Projects/crazygames1.png";
 // import tivo from "../Assets/Projects/Tivo.png";
 
 
@@ -26,6 +29,39 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+  <ProjectCard
+    imgPath={qrgen}
+    isBlog={false}
+    title="QR-Gen – Dynamic QR Code Generator"
+    description="A fully functional SaaS platform that allows users to generate both static and dynamic QR codes with real-time URL redirection, logo customization, analytics, and editable design. Built using React, TypeScript, Tailwind CSS, and Redux."
+    // ghLink="https://github.com/shehryarahmed26/qr-gen"
+    demoLink="https://qr-gen.com"
+  />
+</Col>
+
+<Col md={4} className="project-card">
+  <ProjectCard
+    imgPath={onmls}
+    isBlog={false}
+    title="OnMLS – Real Estate Listing Platform"
+    description="Developed a modern real estate web application enabling users to browse, search, and post verified property listings without any fees. Features include advanced filters, map integration, and a clean UI. Built with React.js, Tailwind CSS."
+    // ghLink="https://github.com/shehryarahmed26/onmls"
+    demoLink="https://onmls.com"
+  />
+</Col>
+
+<Col md={4} className="project-card">
+  <ProjectCard
+    imgPath={crazygames1}
+    isBlog={false}
+    title="CrazyGames – Online Browser Games Hub"
+    description="Created a game aggregation platform hosting a collection of free-to-play browser games across categories like .io, arcade, and puzzle. Optimized for performance and user engagement using php and wordpress."
+    // ghLink="https://github.com/shehryarahmed26/crazygames"
+    demoLink="https://crazygames1.com"
+  />
+</Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={tivo}
@@ -69,7 +105,7 @@ function Projects() {
             />
           </Col>
           
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={carsshowroom}
               isBlog={false}
@@ -78,7 +114,7 @@ function Projects() {
               ghLink="https://github.com/shehryarahmed26/carsbuy-showroom-webapp"
               demoLink="https://carsbuy-showroom.netlify.app"              
             />
-          </Col>
+          </Col> */}
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -93,7 +129,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatbot}
               isBlog={false}
@@ -103,7 +139,7 @@ function Projects() {
               demoLink="https://chatbot-pk.vercel.app/"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>
