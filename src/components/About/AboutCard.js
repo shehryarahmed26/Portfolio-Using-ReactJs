@@ -8,22 +8,26 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
         <p style={{ textAlign: "justify" }}>
-  Hi Everyone, I am <span className="purple">Shehryar Ahmed</span>, a passionate <strong>Software Engineer</strong> specializing in full-stack web development.
-  <br />
-  I'm focused on building saas applications using modern technologies like <strong>React, Next.js, Node.js, MongoDB, PostgreSql</strong>. Over the past year, I’ve grown significantly through continuous learning and hands-on experience.
+  Hi Everyone, I am <span className="purple">Shehryar Ahmed</span>, a <strong>Senior Full Stack Developer</strong> with over <span className="purple">6+ years of experience</span>.
   <br />
   <br />
-  Apart from coding, here are a few activities I enjoy that help me stay sharp and creative:
+  I specialize in building scalable web and mobile applications using <strong>React, React Native, Node.js, Express, MongoDB, Laravel, and PostgreSQL</strong>. I have worked at top companies like <span className="purple">Systems Limited</span>, <span className="purple">10Pearls</span>, and <span className="purple">Folio3</span>.
+  <br />
+  <br />
+  I have expertise in <strong>Cloud & DevOps</strong> with AWS, Docker, Kubernetes, and CI/CD pipelines. I'm passionate about creating efficient, modular architectures that prioritize performance and security.
+  <br />
+  <br />
+  Apart from coding, here are a few things I enjoy:
 </p>
 <ul>
   <li className="about-activity">
-    <ImPointRight /> Playing Chess 
+    <ImPointRight /> Mentoring Junior Developers
   </li>
   <li className="about-activity">
-    <ImPointRight /> Creating & Sharing Tech Content
+    <ImPointRight /> Building Scalable Architectures
   </li>
   <li className="about-activity">
-    <ImPointRight /> Building Side Projects & Exploring New Things
+    <ImPointRight /> Exploring New Technologies & Cloud Services
   </li>
 </ul>
 

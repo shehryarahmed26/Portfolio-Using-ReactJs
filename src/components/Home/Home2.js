@@ -20,33 +20,31 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              With over <b className="purple">6+ years of experience</b>, I am a versatile
+              <b className="purple"> Senior Full Stack Developer</b> specializing in both frontend and backend technologies.
               <br />
-              <br />I am fluent in classics like
+              <br />
+              My expertise spans
               <i>
-                <b className="purple"> Javascript, ReactJs, Nextjs, Node, Express and MongoDB </b>
+                <b className="purple"> React, React Native, Node.js, Express, MongoDB, Laravel, and PostgreSQL </b>
               </i>
+              providing end-to-end solutions for scalable web applications.
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              I have led multiple projects from the ground up, implementing
               <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Deep Learning and Natural Launguage Processing.
-                </b>
+                <b className="purple"> efficient, modular architectures </b>
               </i>
+              that prioritize performance, scalability, and security.
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple"></b>
+              I excel in creating intuitive, responsive UIs with
+              <b className="purple"> React & Next.js</b>, building robust backend systems with
+              <b className="purple"> Node.js & Laravel</b>, and integrating
               <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
+                <b className="purple"> AWS, Firebase, and Azure </b>
               </i>
+              cloud services.
             </p>
           </Col>
           <Col md={4} className="myAvtar">

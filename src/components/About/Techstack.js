@@ -6,7 +6,10 @@ import {
   DiNodejs,
   DiMongodb,
   DiGit,
-  DiCss3
+  DiCss3,
+  DiPostgresql,
+  DiDocker,
+  DiLaravel
 } from "react-icons/di";
 import {
   AiFillHtml5
@@ -18,7 +21,11 @@ import {
   SiRedux,
   SiExpress,
   SiTailwindcss,
-  SiBootstrap
+  SiBootstrap,
+  SiAmazonaws,
+  SiKubernetes,
+  SiRedis,
+  SiGraphql
 } from "react-icons/si";
 
 function Techstack() {
@@ -68,6 +75,27 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiFirebase />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiPostgresql />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiLaravel />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAmazonaws />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiDocker />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiKubernetes />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiRedis />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiGraphql />
       </Col>
     </Row>
   );

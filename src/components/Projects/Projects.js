@@ -2,19 +2,13 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import moviesapp from "../../Assets/Projects/Moviesapp.png";
-import carsshowroom from "../../Assets/Projects/Carsshowroom.png";
-import chatpk from "../../Assets/Projects/Chatpk.png";
-import avengers from "../../Assets/Projects/Game.png";
-import Game from "../../Assets/Projects/Game.png";
-import chatbot from "../../Assets/Projects/chatbot.png";
-import elitebazaar from "../../Assets/Projects/elitebazaar.PNG";
-import netflix from "../../Assets/Projects/netflix.png";
-import tivo from "../../Assets/Projects/Tivo.png";
+import traderverse from "../../Assets/Projects/traderverse.jpg";
+import eyeora from "../../Assets/Projects/eyeora.png";
+import mentorhealth from "../../Assets/Projects/mentorhealth.png";
+import tanweel from "../../Assets/Projects/tanweel.jpg";
 import qrgen from "../../Assets/Projects/Qrgen.png";
 import onmls from "../../Assets/Projects/onmls.png";
 import crazygames1 from "../../Assets/Projects/crazygames1.png";
-// import tivo from "../Assets/Projects/Tivo.png";
 
 
 function Projects() {
@@ -23,123 +17,83 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          My <strong className="purple">Projects & Work </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+          With 6+ years of experience, here are some notable projects I've built and contributed to.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-        <Col md={4} className="project-card">
-  <ProjectCard
-    imgPath={qrgen}
-    isBlog={false}
-    title="QR-Gen – Dynamic QR Code Generator"
-    description="A fully functional SaaS platform that allows users to generate both static and dynamic QR codes with real-time URL redirection, logo customization, analytics, and editable design. Built using React, TypeScript, Tailwind CSS, and Redux."
-    // ghLink="https://github.com/shehryarahmed26/qr-gen"
-    demoLink="https://qr-gen.com"
-  />
-</Col>
-
-<Col md={4} className="project-card">
-  <ProjectCard
-    imgPath={onmls}
-    isBlog={false}
-    title="OnMLS – Real Estate Listing Platform"
-    description="Developed a modern real estate web application enabling users to browse, search, and post verified property listings without any fees. Features include advanced filters, map integration, and a clean UI. Built with React.js, Tailwind CSS."
-    // ghLink="https://github.com/shehryarahmed26/onmls"
-    demoLink="https://onmls.com"
-  />
-</Col>
-
-<Col md={4} className="project-card">
-  <ProjectCard
-    imgPath={crazygames1}
-    isBlog={false}
-    title="CrazyGames – Online Browser Games Hub"
-    description="Created a game aggregation platform hosting a collection of free-to-play browser games across categories like .io, arcade, and puzzle. Optimized for performance and user engagement using php and wordpress."
-    // ghLink="https://github.com/shehryarahmed26/crazygames"
-    demoLink="https://crazygames1.com"
-  />
-</Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={tivo}
+              imgPath={traderverse}
               isBlog={false}
-              title="Tivo - blogging platform"
-              description="A Full Stack blogging platform with admin dashboard using react, node, express and mongodb."
-              ghLink="https://github.com/shehryarahmed26/TiVO----MERN"
-              demoLink="https://tivo-sh.vercel.app/"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={elitebazaar}
-              isBlog={false}
-              title="Elite-Bazaar"
-              description="Ecommerce website using Reactjs, Tailwindcss, Ant Design and dummyjson api integration."
-              ghLink="https://github.com/shehryarahmed26/EliteBazaar-Ecommerce-site-"
-              demoLink="https://elite-bazaar.vercel.app/"
+              title="Traderverse - Trading Platform"
+              description="A comprehensive trading application built with microservices architecture. Developed robust backend services using NestJS with scalable API design. Frontend built with Vue.js featuring real-time trading data, interactive charts, and seamless user experience. Implemented WebSocket connections for live market updates and secure authentication systems."
+              demoLink="https://app.traderverse.io"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatpk}
+              imgPath={eyeora}
               isBlog={false}
-              title="Chat-pk"
-              description=" Real-time Chat Application using Reactjs, Firebase and tailwind css. handling  firebase google authenthication login/logout, firebase firestore and real time functionality"
-              ghLink="https://github.com/shehryarahmed26/Chat.pk"
-              demoLink="https://chat-pk-three.vercel.app/"
+              title="Eyeora - VR/XR Platform"
+              description="An innovative VR/XR platform developed using Angular for the frontend and Laravel (PHP) for backend services. Features immersive virtual reality experiences, 3D content rendering, and cross-platform compatibility. Integrated advanced VR SDKs and optimized performance for smooth user interactions across Oculus and Pico devices."
+              demoLink="https://www.eyeora.com"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={netflix}
+              imgPath={mentorhealth}
               isBlog={false}
-              title="Netflix-inspired Movies App"
-              description="Built a netflix inspired movies app using ReactJs, also includes the api intigraion, search functionality, pagination, skeleton loading, responsive courosoel and dynamic routing "
-              ghLink="https://github.com/shehryarahmed26/netflix-react"
-              demoLink="https://netflix-sh.vercel.app/"
+              title="MentorHealth - Healthcare Platform"
+              description="A multi-tenant health assurance platform built with React Native for mobile and NestJS microservices architecture. Features include patient management, telemedicine integration, appointment scheduling, and real-time health monitoring. Implemented secure data handling compliant with healthcare standards and scalable infrastructure for multiple healthcare providers."
+              demoLink="https://thementorhealth.com"
             />
           </Col>
-          
-          {/* <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={carsshowroom}
-              isBlog={false}
-              title="Cars Showroom"
-              description="Carsshowroom webapp using html, css, js, animate.css. handling nested for in loops for cars data integration"
-              ghLink="https://github.com/shehryarahmed26/carsbuy-showroom-webapp"
-              demoLink="https://carsbuy-showroom.netlify.app"              
-            />
-          </Col> */}
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={avengers}
+              imgPath={tanweel}
               isBlog={false}
-              title="Fighting Game"
-              description="build a marvel game using html css and js. handling gifs on key pressing and animation."
-              ghLink="https://github.com/shehryarahmed26/Game-Animation"
-              demoLink="https://game-animation-sh.netlify.app/"
-
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Tanweel - Logistics & Delivery"
+              description="A last-mile delivery logistics platform for Saudi Arabia built with Java and Spring Boot. Features real-time order tracking, route optimization, driver management, and advanced dispatch systems. Developed RESTful APIs handling high-volume transactions with minimal latency, supporting restaurant and food delivery operations across major Saudi cities."
+              demoLink="https://tanweel.sa"
             />
           </Col>
 
-          {/* <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatbot}
+              imgPath={qrgen}
               isBlog={false}
-              title="Chatbot-pk"
-              description="A JavaScript-based chatbot using Firebase with dynamic prompt handling. Unmatched prompts are stored in Firebase for future logic updates.."
-              ghLink="https://github.com/shehryarahmed26/Chatbot"
-              demoLink="https://chatbot-pk.vercel.app/"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="QR-Gen - Dynamic QR Generator"
+              description="Led development of a high-performance, scalable QR code generation system at Systems Limited. Built with React, Node.js, Express, MongoDB, and Redux. Features real-time updates via Socket.io, CI/CD with GitHub Actions & Docker, and 90%+ test coverage."
+              demoLink="https://qr-gen.com"
             />
-          </Col> */}
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={onmls}
+              isBlog={false}
+              title="OnMLS - Real Estate Platform"
+              description="Developed a modern real estate web application enabling users to browse, search, and post verified property listings. Features include advanced filters, map integration, property comparison, and clean responsive UI. Built with React.js, Tailwind CSS, and integrated RESTful APIs."
+              demoLink="https://onmls.com"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={crazygames1}
+              isBlog={false}
+              title="CrazyGames - Browser Games Hub"
+              description="Created a game aggregation platform hosting free-to-play browser games across categories like .io, arcade, and puzzle. Optimized for performance and user engagement using PHP, WordPress, and custom plugins. Features include game categories, user ratings, and responsive design."
+              demoLink="https://crazygames1.com"
+            />
+          </Col>
+
         </Row>
       </Container>
     </Container>
